@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import arvinetimage from './images/Football.jpg';
+import arvinetimage from './images/Arvinet.jpg';
 import teamdnaimg from './images/teamDNA.jpg';
 import marketvalueimg from './images/Football.jpg';
 gsap.registerPlugin(ScrollTrigger);
