@@ -2,7 +2,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
+import arvinetimage from './images/Football.jpg';
+import teamdnaimg from './images/teamDNA.jpg';
+import marketvalueimg from './images/Football.jpg';
 gsap.registerPlugin(ScrollTrigger);
 
 const ArvindPortfolio = () => {
@@ -278,7 +280,7 @@ const SelectedWorks = () => {
       tech: ['PyTorch', 'CNN', 'Computer Vision', 'CIFAR-100', 'CIFAR-10'],
       link: 'https://github.com/arvindmatharoo/ArviNET',
       aspect: 'md:col-span-7',
-      image: 'https://media.canva.com/v2/image-resize/format:PNG/height:912/quality:100/uri:ifs%3A%2F%2FM%2Ffb506aaf-b3f7-4679-a6ce-1a1a02df8bcf/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAANGwxbmSPGYaXVBc7kG_f5bWfeDG8b_QnWZywYN7ChcL&exp=1779715054&osig=AAAAAAAAAAAAAAAAAAAAAJwtGihyZhbWdSQ1XC3pDDXQeKjA1uz6XlVRH-j9H7lk&signer=media-rpc&x-canva-quality=screen_3x',
+      image: arvinetimage,
       category: 'Deep Learning',
       stats: ['11M', 'Parameters', '86%', 'Accuracy'],
     },
@@ -314,7 +316,7 @@ const SelectedWorks = () => {
       tech: ['Python', 'Streamlit', 'Plotly', 'Matplotlib', 'NetworkX', 'Pandas'],
       link: 'https://github.com/arvindmatharoo/TeamDNA',
       aspect: 'md:col-span-7',
-      image: 'https://media.canva.com/v2/image-resize/format:PNG/height:912/quality:100/uri:ifs%3A%2F%2FM%2F3a6e93bf-047c-4f6a-a9ec-8112418b067e/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAADMSfZwK__Lbte0y68Llph1QjikmuZgC1tqiL-Q6FwhT&exp=1779712115&osig=AAAAAAAAAAAAAAAAAAAAADcoXmQCSwTAdQmd78KLMb1Jj4Fh_AeOwmLvM_vpOEze&signer=media-rpc&x-canva-quality=screen_3x',
+      image: teamdnaimg,
       category: 'Data Visualization',
       stats: ['50K+', 'Events', '7', 'Analytics'],
     },
@@ -326,7 +328,7 @@ const SelectedWorks = () => {
       tech: ['Python', 'XGBoost', 'Scikit-learn', 'FastAPI', 'Feature Engineering', 'EDA'],
       link: 'https://github.com/arvindmatharoo/Football-Player-Value-Predictor',
       aspect: 'md:col-span-12',
-      image: 'https://media.canva.com/v2/image-resize/format:PNG/height:912/quality:100/uri:ifs%3A%2F%2FM%2F318449f4-3f08-41e1-9b59-2faae7e89a3f/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAAJz5E2Uaome1kuLPFHXdDjzFECwFpGX_95z56rNUWX9A&exp=1779714581&osig=AAAAAAAAAAAAAAAAAAAAAIKXHJ7NrNmPpyOx78lgjYwTGNPF74HzxaMGmQAoBfWl&signer=media-rpc&x-canva-quality=screen_3x',
+      image : marketvalueimg, 
       category: 'Predictive Modeling',
       stats: ['2,029', 'Players', '90.4%', 'Accuracy'],
     },
