@@ -292,7 +292,7 @@ const SelectedWorks = () => {
       tech: ['Streamlit', 'TensorFlow', 'Docker', 'XGBoost'],
       link: 'https://tactix-ai.streamlit.app/',
       aspect: 'md:col-span-5',
-      image: tactix_ai,
+      image: tactix_ai.jpg,
       category: 'Full Stack ML',
       stats: ['90%', 'Accuracy', '7', 'Modules'],
     },
