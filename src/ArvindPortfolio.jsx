@@ -5,6 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import arvinetimage from './images/Arvinet.jpg';
 import teamdnaimg from './images/teamDNA.jpg';
 import marketvalueimg from './images/Football.jpg';
+import tactix_ai from './images/tactix_ai.jpg';
 gsap.registerPlugin(ScrollTrigger);
 
 const ArvindPortfolio = () => {
@@ -292,7 +293,7 @@ const SelectedWorks = () => {
       tech: ['Streamlit', 'TensorFlow', 'Docker', 'XGBoost'],
       link: 'https://tactix-ai.streamlit.app/',
       aspect: 'md:col-span-5',
-      image: 'https://raw.githubusercontent.com/arvindmatharoo/TACTIX-AI/main/frontend/bg_analysis.jpg',
+      image: tactix_ai,
       category: 'Full Stack ML',
       stats: ['90%', 'Accuracy', '7', 'Modules'],
     },
